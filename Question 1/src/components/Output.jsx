@@ -10,7 +10,6 @@ const Output = ({number}) => {
       <Link to='/numbers/fibo' className="btn btn-primary">Fibonacci</Link>
       <Link to='/numbers/even' className="btn btn-warning">Even</Link>
       <Link to='/numbers/rand' className="btn btn-danger">Random</Link>
-
       <ul>
         {number.map((data, index)=>{
             return (<li key={index}>{data}</li>)
