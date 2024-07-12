@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: x-large;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  section{
+    height: 50px;
+    width: 100px;
+    border: 1px solid green;
+    background-color: lightgreen;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+  }

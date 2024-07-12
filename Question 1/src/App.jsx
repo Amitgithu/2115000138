@@ -1,17 +1,14 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Number from "./components/Number";
+import Output from "./components/Output";
 
 function App() {
   return (
     <>
       <Routes>
-        <Routes>
-          <Route path="/" element={<Random />} />
-          <Route path="/Prime" element={<Prime />} />
-          <Route path="/Even" element={<Even />} />
-          <Route path="/Fibonacci" element={<Fibonacci />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+          <Route path="/" element={<Output/>}/>
+          <Route path="numbers/:numberId" element={<Number />} />
       </Routes>
     </>
   );
